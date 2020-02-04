@@ -1,0 +1,200 @@
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+    background: #ebebeb;
+    width: 100%;
+    
+    
+}
+
+p {
+    text-indent: 50px;
+    line-height: 25px;
+}
+
+#body3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #ebebeb;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.contact-title {
+    margin-top: 25px;
+    color:black;
+    font-size: 18px;
+    line-height: 10px;
+}
+
+.h1contact {
+    text-align: start;
+    font-size: 30px;
+    line-height: 5px;
+    text-shadow: black 1px 1px;
+    background: #ffffff;
+    padding: 25px 25px 15px;
+    margin-top: 0 auto;
+    color:  rgb(0, 217, 255);
+}
+
+.contact-container {
+    
+    margin: 0 auto;
+    padding: 0;
+    background: #ffffff;
+    width: 545px;
+    
+}
+
+.form {
+    margin: 0 auto;
+}
+
+.form-control{
+    
+    width: 495px;
+    background: #ffffff;
+    border: solid 1px;
+    outline: none; 
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size:18px;
+    margin-bottom:12px;
+}
+
+header, nav, section, aside, footer {
+    background: #ebebeb;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: red;
+}
+
+article {
+    color: #777777;
+    background: #ffffff;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+    
+   
+    
+   
+}
+
+header {
+    background: #ffffff;
+    
+    
+}
+
+.steven {
+    float: left;
+   background: rgb(0, 217, 255);
+   padding: 15px 25px;
+   margin: 0 auto;
+   
+}
+
+h2 {
+    padding-top: 25px;
+    
+}
+header::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+nav {
+    float: right;
+    background-color: #ffffff;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px 25px;
+    padding-top: 30px;
+}
+
+
+#image1::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#image1 {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border: black;
+    border-style: solid;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.CenterBio {
+    margin: 0 auto;
+    width: 960px;
+    background-color: #ffffff;
+    word-spacing: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 0 auto;
+    
+}
+
+.aboutme {
+    padding: 0 15px;
+    overflow: auto;
+    padding: 5px;
+}
+
+.split {
+
+    margin: 0 auto;
+    border: 10px solid rgb(0, 217, 255);
+    border-radius: 5px;
+    
+}
+
+.footer {
+    background-color: #777777;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
