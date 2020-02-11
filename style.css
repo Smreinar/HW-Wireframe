@@ -14,15 +14,17 @@ body {
 p {
     text-indent: 50px;
     line-height: 25px;
+    
 }
 
 #body3 {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     text-align: center;
     background: #ebebeb;
-    background-position: center;
+    font-size: 18px;
     font-family: sans-serif;
+    width: 100%;
 }
 
 .contact-title {
@@ -48,7 +50,8 @@ p {
     margin: 0 auto;
     padding: 0;
     background: #ffffff;
-    width: 545px;
+    width: 62%;
+    
     
 }
 
@@ -58,7 +61,7 @@ p {
 
 .form-control{
     
-    width: 495px;
+    width: 60%;
     background: #ffffff;
     border: solid 1px;
     outline: none; 
@@ -96,7 +99,7 @@ article {
 
 .container {
     margin: 0 auto;
-    width: 960px;
+    width: 62%;
     
    
     
@@ -133,7 +136,7 @@ nav {
 }
 
 nav ul {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     list-style: none;
 }
@@ -156,14 +159,14 @@ nav li {
     height: 200px;
     width: 200px;
     border: black;
-    border-style: solid;
-    padding: 0;
+    border-style: hidden;
+    padding-right: 15px;
     margin-top: 25px;
 }
 
 .CenterBio {
     margin: 0 auto;
-    width: 960px;
+    width: 62%;
     background-color: #ffffff;
     word-spacing: 10px;
     padding-left: 25px;
@@ -197,4 +200,21 @@ nav li {
 }
 
 
+
+
+@media (max-width: 600px) {
+    #image1{display: none;}
+    
+}
+ 
+
+
+@media(max-width: 768px) {
+    #image1{display: none;}
+    
+}
+
+@media (min-width: 992px) {
+    
+}
 
